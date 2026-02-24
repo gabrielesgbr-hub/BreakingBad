@@ -9,15 +9,15 @@ export const PersonajeItem = ({item}) => {
         </div>
         <div className="card-back">
           <h1>{item.name}</h1>
-          <l1>
+          <li>
             <strong>Actor:</strong> {item.portrayed} <br />
-          </l1>
-          <l1>
+          </li>
+          <li>
             <strong>Cumpleaños:</strong> {item.birthday} <br />
-          </l1>
-          <l1>
+          </li>
+          <li>
             <strong>Ocupación:</strong> {item.occupation} <br />
-          </l1>
+          </li>
         </div>
       </div>
     </div>
